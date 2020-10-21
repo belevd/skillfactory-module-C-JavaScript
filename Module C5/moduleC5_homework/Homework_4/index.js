@@ -13,7 +13,7 @@ btn.addEventListener("click", () => {
 });
 
 function compareValue(value) {
-  if ((value >= 100 && value <= 300) || value) {
+  if (value >= 100 && value <= 300) {
     return true;
   }
 }
