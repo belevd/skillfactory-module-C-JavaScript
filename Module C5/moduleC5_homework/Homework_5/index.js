@@ -44,7 +44,6 @@ function useRequest(urlRequest, callbackRequest) {
 
 function displayResult(apiData) {
   let cards = "";
-  debugger;
   apiData.forEach((item) => {
     const cardBlock = `
           <div class="card">
